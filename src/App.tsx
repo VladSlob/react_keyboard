@@ -19,9 +19,7 @@ export class App extends React.Component<Props, State> {
     document.addEventListener('keyup', this.handleKeyUp);
   }
 
-  componentWillUnmount() {
-    document.removeEventListener('keyup', this.handleKeyUp);
-  }
+
 
   render() {
     return (
